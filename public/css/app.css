@@ -1,0 +1,3 @@
+#face { animation: up-down 0.5s ease-in-out infinite alternate; transform-origin: bottom; }
+#shadow { animation: up-down 0.5s ease-in-out infinite alternate; transform-origin: center; }
+@keyframes up-down{ from { transform: rotateX(0deg); } to { transform: rotateX(15deg); }  }
